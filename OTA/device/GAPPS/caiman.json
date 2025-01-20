@@ -1,0 +1,21 @@
+{
+	"response": [
+		{
+			"maintainer": "Niv",
+			"oem": "Google",
+			"device": "Pixel 9 Pro",
+			"filename": "auroraOS-caiman-20250120-15-1.0-GAPPS-OFFICIAL.zip",
+			"download": "https://sourceforge.net/projects/auroraOSP/files/1.x/GAPPS/caiman/auroraOS-caiman-20250120-15-1.0-GAPPS-OFFICIAL.zip/download",
+			"timestamp": 0,
+			"md5": "80753c1360ac5c170637634e09834686",
+			"sha256": "71ad16c7a3e1bafc895e087a386da077f2f6137c74a0efd532b0e077e74aab98",
+			"size": 2040194191,
+			"version": "1.0",
+			"buildtype": "ALPHA",
+			"forum": "",
+			"recovery": "",
+			"paypal": "https://paypal.me/niv268",
+			"telegram": "https://t.me/nivlafx"
+		}
+	]
+}

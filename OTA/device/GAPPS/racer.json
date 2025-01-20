@@ -1,0 +1,21 @@
+{
+	"response": [
+		{
+			"maintainer": "Niv",
+			"oem": "Motorola",
+			"device": "Edge",
+			"filename": "RisingOS-6.2-STABLE-25011405-GAPPS-COMMUNITY-racer-ota-signed.zip",
+			"download": "https://sourceforge.net/projects/risingos-official/files/6.x/GAPPS/racer/RisingOS-6.2-STABLE-25011405-GAPPS-COMMUNITY-racer-ota-signed.zip/download",
+			"timestamp": 1736847455,
+			"md5": "6e8ba339f5f5ef9ba2d28f15bc8055a4",
+			"sha256": "bdaa5cc18a35634ed06ff9982262cac0f59f867c2f7daef83a7abc455e3f4e93",
+			"size": 2288972973,
+			"version": "6.2-Boundless",
+			"buildtype": "STABLE",
+			"forum": "",
+			"recovery": "",
+			"paypal": "https://paypal.me/niv268",
+			"telegram": "https://t.me/nivlafx"
+		}
+	]
+}
