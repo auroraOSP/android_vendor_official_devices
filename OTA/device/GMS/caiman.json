@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-08-10",
+    "datetime": 1786346135,
+    "device": "caiman",
+    "files": [
+      {
+        "date": "2026-08-10",
+        "datetime": 1786346135,
+        "filename": "auroraOS-1.0-20260810-OFFICIAL-GMS-caiman.zip",
+        "md5": "cb037818e16b9fca349f463ac4e227bf",
+        "os_patch_level": "2026-08-01",
+        "os_sdk_level": 37,
+        "ota_property_files": "payload_metadata.bin:4655:230269,payload.bin:4655:3794135414,payload_properties.txt:3794140127:156,apex_info.pb:2036:1767,care_map.pb:3850:758,metadata:69:669,metadata.pb:806:1182",
+        "sha256": "132ebc96e53e372ce7efb78786f46cd5705ac228434b71dbcabb7f63e5863e0b",
+        "size": 3794143443,
+        "type": "package",
+        "url": "https://pixeldrain.com/u/"
+      }
+    ],
+    "is_incremental": false,
+    "source_incremental": "",
+    "type": "OFFICIAL",
+    "version": "1.0",
+    "maintainer": "Niv",
+    "forum": "",
+    "paypal": "https://paypal.me/niv268",
+    "telegram": "https://t.me/nivlafx"
+  }
+]

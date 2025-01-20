@@ -1,0 +1,14 @@
+AuroraOS v1.0
+Build Date : 04/09/2026
+Source Changes
+- Removed WIP columbus service causing SystemUI crash
+  (Version from TheParasiteProject already included)
+
+Build Date : 04/09/2026
+- Updated vendor blobs to include more prebuilts
+- Disable paranoid face unlock in favour of googles
+- IMS overrides
+- Add pixel overlays from stock
+
+Source Changes
+ - Added SystemUIGoogle and SettingsGoogle
