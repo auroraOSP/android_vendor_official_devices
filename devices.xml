@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="android_device_google_caiman" />
+  <project name="android_device_google_caimito" />
+  <project name="android_device_google_komodo" />
+  <project name="android_device_google_tokay" />
+  <project name="android_device_google_zumapro" />
+</manifest>

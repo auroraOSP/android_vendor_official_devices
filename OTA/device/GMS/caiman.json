@@ -1,0 +1,19 @@
+{
+    "response": [
+        {
+            "maintainer": "Niv",
+            "device": "caiman",
+            "filename": "auroraOS-1.0-20260108-OFFICIAL-GMS-caiman.zip",
+            "download": "https://sourceforge.net/projects/auroraOSP/files/1.x/GMS/caiman/auroraOS-1.0-20260108-OFFICIAL-GMS-caiman.zip/download",
+            "timestamp": 1767856436,
+            "md5": "127cffe8b31b2c6f1a3e259f2d877c7b",
+            "sha256": "32f99c1d58342ed44045df16957d6ed79b668aa74bebc6f80d737f93cbe0c8bb",
+            "size": 3270368464,
+            "version": "1.0",
+            "buildtype": "OFFICIAL",
+            "forum": "",
+            "paypal": "https://paypal.me/niv268",
+            "telegram": "https://t.me/nivlafx"
+        }
+    ]
+}
