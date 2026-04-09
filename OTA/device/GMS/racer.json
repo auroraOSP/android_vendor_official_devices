@@ -1,0 +1,19 @@
+{
+    "response": [
+        {
+            "maintainer": "Niv",
+            "device": "racer",
+            "filename": "auroraOS-1.0-20260409-OFFICIAL-GMS-racer.zip",
+            "download": "https://pixeldrain.com/u/",
+            "timestamp": 1775707346,
+            "md5": "bb79dac16bc3ba2d342a863d2d41baf9",
+            "sha256": "570afa4c2903b6f20614ac6edc7b0ea56a0feed94260bb46fd6142e664e80071",
+            "size": 2304172348,
+            "version": "1.0",
+            "buildtype": "OFFICIAL",
+            "forum": "",
+            "paypal": "",
+            "telegram": ""
+        }
+    ]
+}
