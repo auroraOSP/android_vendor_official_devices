@@ -1,19 +1,37 @@
 {
-    "response": [
-        {
-            "maintainer": "Niv",
-            "device": "caiman",
-            "filename": "auroraOS-1.0-20260409-OFFICIAL-GMS-caiman.zip",
-            "download": "https://pixeldrain.com/u/",
-            "timestamp": 1775753011,
-            "md5": "ea23e0a3e58a7045cee081279ce4b588",
-            "sha256": "c81fa1059f585e6e17b86aaf24c91bb503ed99f8ad411e4e9135c11358a228eb",
-            "size": 3266905378,
-            "version": "1.0",
-            "buildtype": "OFFICIAL",
-            "forum": "",
-            "paypal": "https://paypal.me/niv268",
-            "telegram": "https://t.me/nivlafx"
-        }
-    ]
+  "response": [
+    {
+      "maintainer": "Niv",
+      "device": "caiman",
+      "filename": "auroraOS-1.0-20260608-OFFICIAL-GMS-caiman.zip",
+      "download": "https://pixeldrain.com/api/file/VJwHRA4K?download",
+      "timestamp": 1780878593,
+      "md5": "4c1d20d53976ebe64da1029725cccf7f",
+      "sha256": "84e53db0caccc3f9849bc2e7fda5c3c3b368277aca609856e47fe9f2bce5a683",
+      "size": 3508823404,
+      "version": "1.0",
+      "buildtype": "OFFICIAL",
+      "forum": "",
+      "paypal": "https://paypal.me/niv268",
+      "telegram": "https://t.me/nivlafx"
+    },
+    {
+      "maintainer": "Niv",
+      "device": "caiman",
+      "filename": "auroraOS-1.0-20260608-OFFICIAL-GMS-caiman-incremental-1.0-20260608-OFFICIAL-GMS-caiman.zip",
+      "download": "https://pixeldrain.com/api/file/VJwHRA4K?download",
+      "timestamp": 1780878593,
+      "md5": "4faf23c3300ce7e8145aa2b47155aa4e",
+      "sha256": "4e401fd39ce2a6dfd2dcbb61535a6b1a5b29792b44c16665db9d87e636c6ad95",
+      "size": 324313,
+      "version": "1.0-20260608-OFFICIAL-GMS-caiman",
+      "buildtype": "OFFICIAL",
+      "forum": "",
+      "paypal": "https://paypal.me/niv268",
+      "telegram": "https://t.me/nivlafx",
+      "is_incremental": true,
+      "source_incremental": "1780878593",
+      "source_timestamp": 1780878593
+    }
+  ]
 }
