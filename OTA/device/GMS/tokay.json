@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-09-04",
+    "datetime": 1788503105,
+    "device": "tokay",
+    "files": [
+      {
+        "date": "2026-09-04",
+        "datetime": 1788503105,
+        "filename": "auroraOS-1.0-20260904-OFFICIAL-GMS-tokay.zip",
+        "md5": "b259e0be4e302a2ce5c2efd8f1ee11e7",
+        "os_patch_level": "2026-08-01",
+        "os_sdk_level": 37,
+        "ota_property_files": "payload_metadata.bin:4623:234839,payload.bin:4623:3879088929,payload_properties.txt:3879093610:156,apex_info.pb:2014:1767,care_map.pb:3828:748,metadata:69:666,metadata.pb:803:1163",
+        "sha256": "4c55632c80c2db237762e6b809796a567c148f59376eea44e2f679a08f7b4bb7",
+        "size": 3879096926,
+        "type": "package",
+        "url": "https://pixeldrain.com/u/UvK7Zv9L"
+      }
+    ],
+    "is_incremental": false,
+    "source_incremental": "",
+    "type": "OFFICIAL",
+    "version": "1.0",
+    "maintainer": "Niv",
+    "forum": "",
+    "paypal": "",
+    "telegram": ""
+  }
+]
