@@ -1,21 +1,21 @@
 [
   {
-    "date": "2026-09-08",
-    "datetime": 1788848632,
+    "date": "2026-09-10",
+    "datetime": 1789016171,
     "device": "tokay",
     "files": [
       {
-        "date": "2026-09-08",
-        "datetime": 1788848632,
-        "filename": "auroraOS-1.0-20260908-OFFICIAL-GMS-tokay.zip",
-        "md5": "3df3686b295d88f1e6cb66b7b9befbc2",
+        "date": "2026-09-10",
+        "datetime": 1789016171,
+        "filename": "auroraOS-1.0-20260910-OFFICIAL-GMS-tokay.zip",
+        "md5": "a715c0f3173c73e75933a7162c07570e",
         "os_patch_level": "2026-08-01",
         "os_sdk_level": 37,
-        "ota_property_files": "payload_metadata.bin:4623:235124,payload.bin:4623:3881452657,payload_properties.txt:3881457338:156,apex_info.pb:2014:1767,care_map.pb:3828:748,metadata:69:666,metadata.pb:803:1163",
-        "sha256": "e484cb800fd1b724613e156bde8c46f40565f8af907b659c6affe02cb963ebbc",
-        "size": 3881460654,
+        "ota_property_files": "payload_metadata.bin:4623:235178,payload.bin:4623:3881399839,payload_properties.txt:3881404520:156,apex_info.pb:2014:1767,care_map.pb:3828:748,metadata:69:666,metadata.pb:803:1163",
+        "sha256": "225a7321f8d8df7cfdbe488c3ab141eb10c784a7d9bcb1d64e712209e642930a",
+        "size": 3881407836,
         "type": "package",
-        "url": "https://pixeldrain.com/api/file/7FDacBtS?download"
+        "url": "https://pixeldrain.com/api/file/1ScCpuNB?download"
       }
     ],
     "is_incremental": false,
