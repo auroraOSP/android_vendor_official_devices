@@ -1,19 +1,30 @@
-{
-    "response": [
-        {
-            "maintainer": "Niv",
-            "device": "racer",
-            "filename": "auroraOS-1.0-20260409-OFFICIAL-GMS-racer.zip",
-            "download": "https://pixeldrain.com/u/",
-            "timestamp": 1775707346,
-            "md5": "bb79dac16bc3ba2d342a863d2d41baf9",
-            "sha256": "570afa4c2903b6f20614ac6edc7b0ea56a0feed94260bb46fd6142e664e80071",
-            "size": 2304172348,
-            "version": "1.0",
-            "buildtype": "OFFICIAL",
-            "forum": "",
-            "paypal": "",
-            "telegram": ""
-        }
-    ]
-}
+[
+  {
+    "date": "2026-09-29",
+    "datetime": 1790642789,
+    "device": "racer",
+    "files": [
+      {
+        "date": "2026-09-29",
+        "datetime": 1790642789,
+        "filename": "auroraOS-1.0-20260929-OFFICIAL-GMS-racer.zip",
+        "md5": "269d06290690af57a35d047b11a42079",
+        "os_patch_level": "2026-09-01",
+        "os_sdk_level": 37,
+        "ota_property_files": "payload_metadata.bin:4463:148182,payload.bin:4463:2480532422,payload_properties.txt:2480536943:156,apex_info.pb:2100:1467,care_map.pb:3614:802,metadata:69:680,metadata.pb:817:1235",
+        "sha256": "e6b0592a73d5f66cabc2d418bda01ee9be9d5308ef14b8eecbf4f3aeae8cb1d5",
+        "size": 2480540259,
+        "type": "package",
+        "url": "https://pixeldrain.com/api/file/FK2NZcAj?download"
+      }
+    ],
+    "is_incremental": false,
+    "source_incremental": "",
+    "type": "OFFICIAL",
+    "version": "1.0",
+    "maintainer": "Niv",
+    "forum": "",
+    "paypal": "https://paypal.me/niv268",
+    "telegram": "https://t.me/nivlafx"
+  }
+]
