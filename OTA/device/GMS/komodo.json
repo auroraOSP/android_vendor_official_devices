@@ -1,21 +1,21 @@
 [
   {
-    "date": "2026-09-24",
-    "datetime": 1790233460,
+    "date": "2026-09-30",
+    "datetime": 1790756991,
     "device": "komodo",
     "files": [
       {
-        "date": "2026-09-24",
-        "datetime": 1790233460,
-        "filename": "auroraOS-1.0-20260924-OFFICIAL-GMS-komodo.zip",
-        "md5": "19c5608ace0a74b34711f065d9026ae2",
+        "date": "2026-09-30",
+        "datetime": 1790756991,
+        "filename": "auroraOS-1.0-20260930-OFFICIAL-GMS-komodo.zip",
+        "md5": "707295fd44c281d49c4a8c509f0d58a8",
         "os_patch_level": "2026-09-01",
         "os_sdk_level": 37,
-        "ota_property_files": "payload_metadata.bin:4655:233929,payload.bin:4655:3880444750,payload_properties.txt:3880449463:156,apex_info.pb:2036:1767,care_map.pb:3850:758,metadata:69:669,metadata.pb:806:1182",
-        "sha256": "e4a1c800b2cf8933c3e77d32b2b4d9d0fbd674e035f50a5c5371045770da9caa",
-        "size": 3880452779,
+        "ota_property_files": "payload_metadata.bin:4655:233747,payload.bin:4655:3881512045,payload_properties.txt:3881516758:156,apex_info.pb:2036:1767,care_map.pb:3850:758,metadata:69:669,metadata.pb:806:1182",
+        "sha256": "e33a9cf8fca0d4ea9683430c84743402b60196091c06378b5eaac75399222590",
+        "size": 3881520074,
         "type": "package",
-        "url": "https://pixeldrain.com/api/file/VoCdxCzB?download"
+        "url": "https://pixeldrain.com/api/file/Nvzg5ZcZ?download"
       }
     ],
     "is_incremental": false,
