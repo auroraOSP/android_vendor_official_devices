@@ -1,21 +1,21 @@
 [
   {
-    "date": "2026-09-30",
-    "datetime": 1790754554,
+    "date": "2026-10-05",
+    "datetime": 1791181356,
     "device": "caiman",
     "files": [
       {
-        "date": "2026-09-30",
-        "datetime": 1790754554,
-        "filename": "auroraOS-1.0-20260930-OFFICIAL-GMS-caiman.zip",
-        "md5": "3378ae4b4d3f0c75baadde34f1c73595",
+        "date": "2026-10-05",
+        "datetime": 1791181356,
+        "filename": "auroraOS-1.0-20261005-OFFICIAL-GMS-caiman.zip",
+        "md5": "63261201d80fb4282b846b17716e1c1b",
         "os_patch_level": "2026-09-01",
         "os_sdk_level": 37,
-        "ota_property_files": "payload_metadata.bin:4655:233686,payload.bin:4655:3876297590,payload_properties.txt:3876302303:156,apex_info.pb:2036:1767,care_map.pb:3850:758,metadata:69:669,metadata.pb:806:1182",
-        "sha256": "d514f853cf81d69668dcde3a97e2635fd970cfe49ee4982ec3733bf9bb6fd06a",
-        "size": 3876305619,
+        "ota_property_files": "payload_metadata.bin:4753:239499,payload.bin:4753:3886816716,payload_properties.txt:3886821527:156,apex_info.pb:2036:1767,care_map.pb:3850:856,metadata:69:669,metadata.pb:806:1182",
+        "sha256": "d03e25a96292ae43f1da2cd4e7493797e6f041aabd96f3a3200cfd157c441179",
+        "size": 3886824843,
         "type": "package",
-        "url": "https://pixeldrain.com/api/file/u9aDgWQ3?download"
+        "url": "https://pub-68beeba814ad4a5bb77c0e4f1008b453.r2.dev/caiman/auroraOS-1.0-20261005-OFFICIAL-GMS-caiman.zip"
       }
     ],
     "is_incremental": false,
