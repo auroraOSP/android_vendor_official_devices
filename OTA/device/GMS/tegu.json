@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-11-03",
+    "datetime": 1793719518,
+    "device": "tegu",
+    "files": [
+      {
+        "date": "2026-11-03",
+        "datetime": 1793719518,
+        "filename": "auroraOS-1.0-20261103-COMMUNITY-GMS-tegu.zip",
+        "md5": "1d0ac0c31f0c7b363bb63c830736d31d",
+        "os_patch_level": "2026-10-01",
+        "os_sdk_level": 37,
+        "ota_property_files": "payload_metadata.bin:4705:225966,payload.bin:4705:3687222474,payload_properties.txt:3687227237:156,apex_info.pb:1992:1767,care_map.pb:3806:852,metadata:69:663,metadata.pb:800:1144",
+        "sha256": "392620b60a2da28f11cf523128209a712274536072e8ef8a5ea566d611276252",
+        "size": 3687230553,
+        "type": "package",
+        "url": "https://dl.auroraosp.fyi/tegu/auroraOS-1.0-20261103-COMMUNITY-GMS-tegu.zip"
+      }
+    ],
+    "is_incremental": false,
+    "source_incremental": "",
+    "type": "COMMUNITY",
+    "version": "1.0",
+    "maintainer": "Niv",
+    "forum": "",
+    "paypal": "",
+    "telegram": ""
+  }
+]

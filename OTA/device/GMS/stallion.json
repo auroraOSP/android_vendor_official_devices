@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-11-03",
+    "datetime": 1793716591,
+    "device": "stallion",
+    "files": [
+      {
+        "date": "2026-11-03",
+        "datetime": 1793716591,
+        "filename": "auroraOS-1.0-20261103-COMMUNITY-GMS-stallion.zip",
+        "md5": "9226f4527ff8a376ef09834e6ea06e34",
+        "os_patch_level": "2026-10-01",
+        "os_sdk_level": 37,
+        "ota_property_files": "payload_metadata.bin:4804:229292,payload.bin:4804:3775284838,payload_properties.txt:3775289700:156,apex_info.pb:2080:1767,care_map.pb:3894:863,metadata:69:675,metadata.pb:812:1220",
+        "sha256": "62ad13566339cdf05c40ab6747572381d4dd49ee9f1ad3948cde5b37a72ca19b",
+        "size": 3775293016,
+        "type": "package",
+        "url": "https://dl.auroraosp.fyi/stallion/auroraOS-1.0-20261103-COMMUNITY-GMS-stallion.zip"
+      }
+    ],
+    "is_incremental": false,
+    "source_incremental": "",
+    "type": "COMMUNITY",
+    "version": "1.0",
+    "maintainer": "Niv",
+    "forum": "",
+    "paypal": "",
+    "telegram": ""
+  }
+]

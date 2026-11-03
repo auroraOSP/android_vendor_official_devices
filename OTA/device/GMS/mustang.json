@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-11-03",
+    "datetime": 1793713033,
+    "device": "mustang",
+    "files": [
+      {
+        "date": "2026-11-03",
+        "datetime": 1793713033,
+        "filename": "auroraOS-1.0-20261103-COMMUNITY-GMS-mustang.zip",
+        "md5": "e616a918a5132bbdaa411ed80d1a9549",
+        "os_patch_level": "2026-10-01",
+        "os_sdk_level": 37,
+        "ota_property_files": "payload_metadata.bin:4809:233580,payload.bin:4809:3817858249,payload_properties.txt:3817863116:156,apex_info.pb:2058:1807,care_map.pb:3912:850,metadata:69:672,metadata.pb:809:1201",
+        "sha256": "498dced2207b7227217909c01112111f4de22b9a889d95846b61be5ef7f2dd74",
+        "size": 3817866432,
+        "type": "package",
+        "url": "https://dl.auroraosp.fyi/mustang/auroraOS-1.0-20261103-COMMUNITY-GMS-mustang.zip"
+      }
+    ],
+    "is_incremental": false,
+    "source_incremental": "",
+    "type": "COMMUNITY",
+    "version": "1.0",
+    "maintainer": "Niv",
+    "forum": "",
+    "paypal": "",
+    "telegram": ""
+  }
+]

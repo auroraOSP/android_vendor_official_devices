@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-11-03",
+    "datetime": 1793698767,
+    "device": "blazer",
+    "files": [
+      {
+        "date": "2026-11-03",
+        "datetime": 1793698767,
+        "filename": "auroraOS-1.0-20261103-COMMUNITY-GMS-blazer.zip",
+        "md5": "43a5234c993b2a901e53b6f5a43fbd91",
+        "os_patch_level": "2026-10-01",
+        "os_sdk_level": 37,
+        "ota_property_files": "payload_metadata.bin:4777:233401,payload.bin:4777:3811068415,payload_properties.txt:3811073250:156,apex_info.pb:2036:1807,care_map.pb:3890:840,metadata:69:669,metadata.pb:806:1182",
+        "sha256": "8d8a145c15727a683bfa0d8b96b19ad1258f3e9ddaa8b7a57fc7e673cdfaaa35",
+        "size": 3811076566,
+        "type": "package",
+        "url": "https://dl.auroraosp.fyi/blazer/auroraOS-1.0-20261103-COMMUNITY-GMS-blazer.zip"
+      }
+    ],
+    "is_incremental": false,
+    "source_incremental": "",
+    "type": "COMMUNITY",
+    "version": "1.0",
+    "maintainer": "Niv",
+    "forum": "",
+    "paypal": "",
+    "telegram": ""
+  }
+]

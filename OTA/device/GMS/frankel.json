@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-11-03",
+    "datetime": 1793701886,
+    "device": "frankel",
+    "files": [
+      {
+        "date": "2026-11-03",
+        "datetime": 1793701886,
+        "filename": "auroraOS-1.0-20261103-COMMUNITY-GMS-frankel.zip",
+        "md5": "363c8ffb5a9a1be46e182d62a26363ef",
+        "os_patch_level": "2026-10-01",
+        "os_sdk_level": 37,
+        "ota_property_files": "payload_metadata.bin:4769:233825,payload.bin:4769:3811951065,payload_properties.txt:3811955892:156,apex_info.pb:2058:1767,care_map.pb:3872:850,metadata:69:672,metadata.pb:809:1201",
+        "sha256": "f84ee2d9df32975acc3bc312f2bd744dcde292c226ab7f0a3a72af6c0cd4f9ec",
+        "size": 3811959208,
+        "type": "package",
+        "url": "https://dl.auroraosp.fyi/frankel/auroraOS-1.0-20261103-COMMUNITY-GMS-frankel.zip"
+      }
+    ],
+    "is_incremental": false,
+    "source_incremental": "",
+    "type": "COMMUNITY",
+    "version": "1.0",
+    "maintainer": "Niv",
+    "forum": "",
+    "paypal": "",
+    "telegram": ""
+  }
+]

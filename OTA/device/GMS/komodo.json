@@ -1,21 +1,21 @@
 [
   {
-    "date": "2026-10-31",
-    "datetime": 1793455524,
+    "date": "2026-11-03",
+    "datetime": 1793692910,
     "device": "komodo",
     "files": [
       {
-        "date": "2026-10-31",
-        "datetime": 1793455524,
-        "filename": "auroraOS-1.0-20261031-OFFICIAL-GMS-komodo.zip",
-        "md5": "007ac5da99ab567d518af1cbe844d2cc",
+        "date": "2026-11-03",
+        "datetime": 1793692910,
+        "filename": "auroraOS-1.0-20261103-OFFICIAL-GMS-komodo.zip",
+        "md5": "e9d1d58c00f7854c86b662b0fca829af",
         "os_patch_level": "2026-10-01",
         "os_sdk_level": 37,
-        "ota_property_files": "payload_metadata.bin:4753:239500,payload.bin:4753:3881746207,payload_properties.txt:3881751018:156,apex_info.pb:2036:1767,care_map.pb:3850:856,metadata:69:669,metadata.pb:806:1182",
-        "sha256": "332a15d48bd316e4af91dd38080e12dc4e93cc5087799b126e23e0f4fe77cf0f",
-        "size": 3881754334,
+        "ota_property_files": "payload_metadata.bin:4753:239502,payload.bin:4753:3881742559,payload_properties.txt:3881747370:156,apex_info.pb:2036:1767,care_map.pb:3850:856,metadata:69:669,metadata.pb:806:1182",
+        "sha256": "b68518d2772f5b6bc85a9c2d80d93abaae1b4108b0ac8805157940b8ad1f8b0c",
+        "size": 3881750686,
         "type": "package",
-        "url": "https://dl.auroraosp.fyi/komodo/auroraOS-1.0-20261031-OFFICIAL-GMS-komodo.zip"
+        "url": "https://dl.auroraosp.fyi/komodo/auroraOS-1.0-20261103-OFFICIAL-GMS-komodo.zip"
       }
     ],
     "is_incremental": false,
