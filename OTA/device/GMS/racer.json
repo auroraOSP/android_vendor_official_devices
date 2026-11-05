@@ -1,21 +1,21 @@
 [
   {
-    "date": "2026-09-29",
-    "datetime": 1790642789,
+    "date": "2026-11-05",
+    "datetime": 1793874369,
     "device": "racer",
     "files": [
       {
-        "date": "2026-09-29",
-        "datetime": 1790642789,
-        "filename": "auroraOS-1.0-20260929-OFFICIAL-GMS-racer.zip",
-        "md5": "269d06290690af57a35d047b11a42079",
-        "os_patch_level": "2026-09-01",
+        "date": "2026-11-05",
+        "datetime": 1793874369,
+        "filename": "auroraOS-1.0-20261105-OFFICIAL-GMS-racer.zip",
+        "md5": "b84509591a1ebdbaa17c4ab7480a14a9",
+        "os_patch_level": "2026-10-01",
         "os_sdk_level": 37,
-        "ota_property_files": "payload_metadata.bin:4463:148182,payload.bin:4463:2480532422,payload_properties.txt:2480536943:156,apex_info.pb:2100:1467,care_map.pb:3614:802,metadata:69:680,metadata.pb:817:1235",
-        "sha256": "e6b0592a73d5f66cabc2d418bda01ee9be9d5308ef14b8eecbf4f3aeae8cb1d5",
-        "size": 2480540259,
+        "ota_property_files": "payload_metadata.bin:4491:152804,payload.bin:4491:2495426093,payload_properties.txt:2495430642:156,apex_info.pb:2100:1467,care_map.pb:3614:830,metadata:69:680,metadata.pb:817:1235",
+        "sha256": "b797238e7822ffc316d8b2572529586941b1263818f56ca2cb9e546fbfd98282",
+        "size": 2495433958,
         "type": "package",
-        "url": "https://pixeldrain.com/api/file/FK2NZcAj?download"
+        "url": "https://dl.auroraosp.fyi/racer/auroraOS-1.0-20261105-OFFICIAL-GMS-racer.zip"
       }
     ],
     "is_incremental": false,
@@ -23,7 +23,7 @@
     "type": "OFFICIAL",
     "version": "1.0",
     "maintainer": "Niv",
-    "forum": "",
+    "forum": "https://xdaforums.com/t/rom-racer-auroraosp-official-android-17.4803214",
     "paypal": "https://paypal.me/niv268",
     "telegram": "https://t.me/nivlafx"
   }
