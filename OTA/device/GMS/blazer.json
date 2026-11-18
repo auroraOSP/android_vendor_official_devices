@@ -1,21 +1,21 @@
 [
   {
-    "date": "2026-11-10",
-    "datetime": 1794311933,
+    "date": "2026-11-18",
+    "datetime": 1795001362,
     "device": "blazer",
     "files": [
       {
-        "date": "2026-11-10",
-        "datetime": 1794311933,
-        "filename": "auroraOS-1.1-20261110-OFFICIAL-GMS-blazer.zip",
-        "md5": "bfa4c2b5599b27f7701db0de3d705c57",
+        "date": "2026-11-18",
+        "datetime": 1795001362,
+        "filename": "auroraOS-1.1-20261118-OFFICIAL-GMS-blazer.zip",
+        "md5": "a82ea4e635a4090adebaedc791885a44",
         "os_patch_level": "2026-11-01",
         "os_sdk_level": 37,
-        "ota_property_files": "payload_metadata.bin:4777:233519,payload.bin:4777:3810370512,payload_properties.txt:3810375347:156,apex_info.pb:2036:1807,care_map.pb:3890:840,metadata:69:669,metadata.pb:806:1182",
-        "sha256": "7f34ed912ffa8f8132ca6723b53a1638a1dd26144a45e6cb6b23f9f6cfaae123",
-        "size": 3810378663,
+        "ota_property_files": "payload_metadata.bin:4777:234502,payload.bin:4777:3846059623,payload_properties.txt:3846064458:156,apex_info.pb:2036:1807,care_map.pb:3890:840,metadata:69:669,metadata.pb:806:1182",
+        "sha256": "a742251e84202caa4c5a231d49722d84303d6d101d2a69eb5762a4545c39b2a4",
+        "size": 3846067774,
         "type": "package",
-        "url": "https://dl.auroraosp.fyi/blazer/auroraOS-1.1-20261110-OFFICIAL-GMS-blazer.zip"
+        "url": "https://dl.auroraosp.fyi/blazer/auroraOS-1.1-20261118-OFFICIAL-GMS-blazer.zip"
       }
     ],
     "is_incremental": false,

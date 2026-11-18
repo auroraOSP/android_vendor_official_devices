@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-11-12",
+    "datetime": 1794463178,
+    "device": "cheetah",
+    "files": [
+      {
+        "date": "2026-11-12",
+        "datetime": 1794463178,
+        "filename": "auroraOS-1.1-20261112-COMMUNITY-GMS-cheetah.zip",
+        "md5": "321bb6a443055a2f195296bfbc99f215",
+        "os_patch_level": "2026-11-01",
+        "os_sdk_level": 37,
+        "ota_property_files": "payload_metadata.bin:4801:228429,payload.bin:4801:3706922280,payload_properties.txt:3706927139:156,apex_info.pb:2082:1737,care_map.pb:3866:888,metadata:69:675,metadata.pb:812:1222",
+        "sha256": "460ff5fea2512d1dd02f8ad6ae41996da565a9179ebb0aa70af2bb158014df1a",
+        "size": 3706930455,
+        "type": "package",
+        "url": "https://dl.auroraosp.fyi/cheetah/auroraOS-1.1-20261112-COMMUNITY-GMS-cheetah.zip"
+      }
+    ],
+    "is_incremental": false,
+    "source_incremental": "",
+    "type": "COMMUNITY",
+    "version": "1.1",
+    "maintainer": "Niv",
+    "forum": "",
+    "paypal": "",
+    "telegram": ""
+  }
+]

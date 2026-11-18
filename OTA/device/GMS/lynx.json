@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-11-12",
+    "datetime": 1794470369,
+    "device": "lynx",
+    "files": [
+      {
+        "date": "2026-11-12",
+        "datetime": 1794470369,
+        "filename": "auroraOS-1.1-20261112-COMMUNITY-GMS-lynx.zip",
+        "md5": "99bbeb3aaaf0e6c3465da3352ae8a0c5",
+        "os_patch_level": "2026-11-01",
+        "os_sdk_level": 37,
+        "ota_property_files": "payload_metadata.bin:4718:228130,payload.bin:4718:3703038439,payload_properties.txt:3703043215:156,apex_info.pb:2016:1737,care_map.pb:3800:871,metadata:69:666,metadata.pb:803:1165",
+        "sha256": "782f62fd01543edbe8d4e5d7b8b3ed944bf4498d2c24944cb4940fcb4a53f72f",
+        "size": 3703046531,
+        "type": "package",
+        "url": "https://dl.auroraosp.fyi/lynx/auroraOS-1.1-20261112-COMMUNITY-GMS-lynx.zip"
+      }
+    ],
+    "is_incremental": false,
+    "source_incremental": "",
+    "type": "COMMUNITY",
+    "version": "1.1",
+    "maintainer": "Niv",
+    "forum": "",
+    "paypal": "",
+    "telegram": ""
+  }
+]

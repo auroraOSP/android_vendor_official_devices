@@ -1,21 +1,21 @@
 [
   {
-    "date": "2026-11-10",
-    "datetime": 1794320642,
+    "date": "2026-11-18",
+    "datetime": 1795011240,
     "device": "stallion",
     "files": [
       {
-        "date": "2026-11-10",
-        "datetime": 1794320642,
-        "filename": "auroraOS-1.1-20261110-OFFICIAL-GMS-stallion.zip",
-        "md5": "1a676baa01fcc2fb41dde2807e444497",
+        "date": "2026-11-18",
+        "datetime": 1795011240,
+        "filename": "auroraOS-1.1-20261118-OFFICIAL-GMS-stallion.zip",
+        "md5": "706b311891a067dd578ee7236ced72c3",
         "os_patch_level": "2026-11-01",
         "os_sdk_level": 37,
-        "ota_property_files": "payload_metadata.bin:4804:229335,payload.bin:4804:3775266449,payload_properties.txt:3775271311:156,apex_info.pb:2080:1767,care_map.pb:3894:863,metadata:69:675,metadata.pb:812:1220",
-        "sha256": "79c4f2d798aef9e2944e736dde55bf8861d20acf3d8b355fea704be00a69856f",
-        "size": 3775274627,
+        "ota_property_files": "payload_metadata.bin:4804:230320,payload.bin:4804:3809999263,payload_properties.txt:3810004125:156,apex_info.pb:2080:1767,care_map.pb:3894:863,metadata:69:675,metadata.pb:812:1220",
+        "sha256": "a69af67a0597e26a3b7eb686af75c6d73606e715072489a9629750b6326add51",
+        "size": 3810007441,
         "type": "package",
-        "url": "https://dl.auroraosp.fyi/stallion/auroraOS-1.1-20261110-OFFICIAL-GMS-stallion.zip"
+        "url": "https://dl.auroraosp.fyi/stallion/auroraOS-1.1-20261118-OFFICIAL-GMS-stallion.zip"
       }
     ],
     "is_incremental": false,
