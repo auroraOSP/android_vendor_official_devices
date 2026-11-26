@@ -1,26 +1,26 @@
 [
   {
-    "date": "2026-11-12",
-    "datetime": 1794463178,
+    "date": "2026-11-26",
+    "datetime": 1795659918,
     "device": "cheetah",
     "files": [
       {
-        "date": "2026-11-12",
-        "datetime": 1794463178,
-        "filename": "auroraOS-1.1-20261112-COMMUNITY-GMS-cheetah.zip",
-        "md5": "321bb6a443055a2f195296bfbc99f215",
+        "date": "2026-11-26",
+        "datetime": 1795659918,
+        "filename": "auroraOS-1.1-20261126-OFFICIAL-GMS-cheetah.zip",
+        "md5": "aea44b103851b15854667a13c3aa2774",
         "os_patch_level": "2026-11-01",
         "os_sdk_level": 37,
-        "ota_property_files": "payload_metadata.bin:4801:228429,payload.bin:4801:3706922280,payload_properties.txt:3706927139:156,apex_info.pb:2082:1737,care_map.pb:3866:888,metadata:69:675,metadata.pb:812:1222",
-        "sha256": "460ff5fea2512d1dd02f8ad6ae41996da565a9179ebb0aa70af2bb158014df1a",
-        "size": 3706930455,
+        "ota_property_files": "payload_metadata.bin:4808:230432,payload.bin:4808:3773225716,payload_properties.txt:3773230582:156,apex_info.pb:2082:1744,care_map.pb:3873:888,metadata:69:675,metadata.pb:812:1222",
+        "sha256": "e976a0a719b537a2112dfda7def3ef76d59c5e81b864b8e4ae6619779c211061",
+        "size": 3773233898,
         "type": "package",
-        "url": "https://dl.auroraosp.fyi/cheetah/auroraOS-1.1-20261112-COMMUNITY-GMS-cheetah.zip"
+        "url": "https://dl.auroraosp.fyi/cheetah/auroraOS-1.1-20261126-OFFICIAL-GMS-cheetah.zip"
       }
     ],
     "is_incremental": false,
     "source_incremental": "",
-    "type": "COMMUNITY",
+    "type": "OFFICIAL",
     "version": "1.1",
     "maintainer": "Niv",
     "forum": "",

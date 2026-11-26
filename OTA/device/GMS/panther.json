@@ -1,26 +1,26 @@
 [
   {
-    "date": "2026-11-12",
-    "datetime": 1794467082,
+    "date": "2026-11-26",
+    "datetime": 1795662141,
     "device": "panther",
     "files": [
       {
-        "date": "2026-11-12",
-        "datetime": 1794467082,
-        "filename": "auroraOS-1.1-20261112-COMMUNITY-GMS-panther.zip",
-        "md5": "08cbf997550c8c62aae0a61d4426ba03",
+        "date": "2026-11-26",
+        "datetime": 1795662141,
+        "filename": "auroraOS-1.1-20261126-OFFICIAL-GMS-panther.zip",
+        "md5": "0d435c14aee26834ecdda587f2e2214f",
         "os_patch_level": "2026-11-01",
         "os_sdk_level": 37,
-        "ota_property_files": "payload_metadata.bin:4801:228255,payload.bin:4801:3705115787,payload_properties.txt:3705120646:156,apex_info.pb:2082:1737,care_map.pb:3866:888,metadata:69:675,metadata.pb:812:1222",
-        "sha256": "2e3132fca052e4417da2e7178f0ab3ffea6ebf27d54ab621690f858fea2aeb2c",
-        "size": 3705123962,
+        "ota_property_files": "payload_metadata.bin:4808:230214,payload.bin:4808:3771902331,payload_properties.txt:3771907197:156,apex_info.pb:2082:1744,care_map.pb:3873:888,metadata:69:675,metadata.pb:812:1222",
+        "sha256": "78af531c5799e6b1e7ec8271c8a2e11d1f569a37adf1f9e4e2221da55fedd793",
+        "size": 3771910513,
         "type": "package",
-        "url": "https://dl.auroraosp.fyi/panther/auroraOS-1.1-20261112-COMMUNITY-GMS-panther.zip"
+        "url": "https://dl.auroraosp.fyi/panther/auroraOS-1.1-20261126-OFFICIAL-GMS-panther.zip"
       }
     ],
     "is_incremental": false,
     "source_incremental": "",
-    "type": "COMMUNITY",
+    "type": "OFFICIAL",
     "version": "1.1",
     "maintainer": "Niv",
     "forum": "",
