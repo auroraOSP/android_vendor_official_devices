@@ -1,4 +1,118 @@
 AuroraOS v1.1
+Build Date : 25/11/2026
+Source Changes
+- init: Spoof encrytion prop as encrypted
+- libfs_avb: Allow LKs patched with fenrir to boot on AOSP
+- init: Add more properties for spoof
+- adding guard to verified_boot_state check
+- init: Remove sys property triggering custom rom detect
+- init: Restrict property_service exemptions * also preserve adb auth
+- init: Check before assuming property set is successful
+- custom_rom_hide: stop over-spoofing that native RASPs detect as tampering
+- ThemePicker: Backdrop online wallpaper collections
+- Updater: Run installs at full speed on a charger or with the screen off
+- core: Honour PRODUCT_VIRTUAL_AB_COW_VERSION 3 for full OTAs
+- envsetup: Honour COW v3 for signed full OTAs
+- Revert "common: Disable adb authentication on userdebug builds by default"
+- ThemePicker: Resolve the icon provider through HomeActivityResolver
+- WallpaperPicker2: Find the launcher when no default home is set
+- custom_rom_hide: exempt Paytm/AU0101 from libc hooks (RASP detects them)
+- SystemUI: Cap the combined icon size at 130%
+- AuroraHub: Cap the combined icon size at 130%
+- SystemUI: One UI QS: brightness glyph moves past the thumb like volume
+- Launcher3: Stock-style search zero state with Google account history
+- Launcher3: Show entity titles, descriptions and photos on web suggestions
+- Launcher3: Fetch Google account history from the Google app like stock
+- Launcher3: Name app result sections and show web results sooner
+- Launcher3: Only show the search zero state while the search box is focused
+- overlay: Point the wallpaper cropper at the shipped picker
+- lineage: Follow the wallpaper picker to its stock application id
+- overlay: Update default wallpapers
+- Let Theme Packs go upstream, and capture what it gets back
+- Let the themepack tool ingest a captured body directly
+- Fall back to the real service when the repository lacks a theme build
+- SystemUI: Make double tap to sleep work with the scene container
+- aurora: Point the PublicComputeRelay default at auroraOSP/pcs-manifests
+- AuroraHub: Update SpoofCheck
+- AuroraHub: Update the default manifest
+- SystemUI: Volume dialog: give feedback when picking a ringer mode
+- SystemUI: Tuck lock screen notifications into the Now bar
+- SettingsLib: Let the theme supply the restored stateful row background
+- Settings: Make Liquid Glass real glass
+- ProcessList: Isolate app data for every target SDK
+- AuroraHub: Suggest apps for Hide developer status
+- AuroraHub: Add a Glass clarity slider for the Liquid Glass homepage
+- Settings: Add a clarity control for Liquid Glass
+- Launcher3: Bow the arc scrubber rail towards the finger
+- Launcher3: Clock, favourites and floating search for the arc drawer
+- Launcher3: Live Quick Settings tiles and full-size app icons in search
+- Launcher3: Match the arc drawer to Niagara Launcher
+- Launcher3: Add ColorOS app transition springs
+- WMShell: Add ColorOS app-to-app slide transitions
+- AuroraHub: Add app transition style picker
+- SystemUI: Now bar notifications: share the clock area out like ColorOS
+- SystemUI: Now bar notifications: compact clock, full list, lyrics aside
+- TrickyStore: default AU 0101 to NATIVE attestation
+- SystemUI: Now bar notifications: ColorOS deck and capsule morph
+- custom_rom_hide: obfuscate ROM/root/package tells in libc .rodata
+- PIF: Keep the Play Store on the real identity for beta/canary prints
+- modules: Update to CP3A.261005.005 (2026-08-01 train)
+- init: Drop non-Pixel SafetyNet props that RASPs flag as spoofing
+- modules: Declare SignatureGoogle in the MediaProvider APEX
+- custom_rom_hide: make obf key volatile so -O2 can't fold the plaintext back
+- modules: Ship the train version packages Play needs, plus Google StatsD
+- libc: neutralize path-policy symbol names that RASPs flag in .symtab
+- trickystore: stop spoofing Paytm's attestation (Protectt false positive)
+- SystemUI: Now bar capsule: fit the clock above the folded deck
+- SystemUI: Now bar capsule: ColorOS folded deck layers, swipe to fold
+- Launcher3: Add a customisable dock background
+- Launcher3: Frosted dock blur and centre the plate on the icons
+- Launcher3: Dock blur strength, and centre the plate on the real icons
+- Launcher3: Stop clamping the dock plate to the hotseat's top edge
+- SystemUI: Drop stale pointers in NestedDraggable down tracking
+- Revert Now bar notification capsule
+- Launcher3: Keep the dock plate whole through the home/drawer fade
+- SystemUI: Now bar: swipe up into full-size Now cards
+- SystemUI: Keep a disabled NestedDraggable attached until its gesture ends
+- Launcher3: Keep the dock plate whole through app launch and close
+- Dialer: Match Google Dialer's contact search results
+- Dialer: Rank and annotate the search results that regular search really uses
+- Dialer: Tint the expanded search bar like Google Dialer
+- Dialer: Morph the search pill into the header like the Material SearchView
+- Dialer: Add the call assist speech pipeline
+- Dialer: Add Direct My Call
+- Dialer: Add call notes with on-device summaries
+- Dialer: Add Hold for Me
+- Dialer: Add Call Screen
+- Dialer: Replace window action bars with Google Dialer's app bar
+- Dialer: Drop the rule between settings groups
+- Dialer: Use Google Dialer's own Audio Emoji sounds and animations
+- Dialer: Screen spam, unknown and hidden callers automatically
+- Dialer: Name businesses on calls with Google Places
+- Dialer: Show Call Screen transcripts in call history
+- MicrogUtils: allow the Google Dialer identity for caller-ID
+- Dialer: Business caller ID from Google's own lookup service
+- aurora: Ship the Google Dialer identity bridge
+- AuroraHub: show combined icon size right under the layout picker
+- Launcher3: Home screen only mode (no app drawer)
+- Launcher3: Home screen only: open further new pages ourselves
+- Launcher3: Lift the workspace page dots clear of the dock plate
+- SystemUI: Ask for unlock before chosen QS tiles work on a secure lockscreen
+- AuroraHub: Add Secure quick settings page to Lockscreen
+- SystemUI: Now cards: above the shortcuts, unlock off, long swipe, clock fit
+- services: Don't show first-crash dialogs for isolated processes
+- core: Default BUILD_KEYS to release-keys for testkey builds
+- DeveloperStatusHider: Protect AU 0101 by default and spoof test-keys
+- AuroraHub: Add AU 0101 to suggested developer status hide list
+- Launcher3: Blur only behind the long-press menu's cards, not the gaps
+- Dialer: Show calls from every source in the call log
+- SystemUI: Now cards: fit custom clocks, fade the shelf and indication
+- libc: Increase PROP_OVERRIDE_MAX to 64
+- trickystore & DeveloperStatusHider: Stop spoofing AU 0101 attestation and fix debug prop seam
+- Backgrounds: Add auroraOS logo wallpapers
+- aurora: Skip the redundant re-sign pass in 'aurora br'
+- WallpaperEffects: Open up background enclosed by the depth subject
+
 Build Date : 18/11/2026
 Source Changes
 - wiki: Promote eqs to 24.0

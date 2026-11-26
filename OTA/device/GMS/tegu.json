@@ -1,21 +1,21 @@
 [
   {
-    "date": "2026-11-18",
-    "datetime": 1794997873,
+    "date": "2026-11-25",
+    "datetime": 1795607543,
     "device": "tegu",
     "files": [
       {
-        "date": "2026-11-18",
-        "datetime": 1794997873,
-        "filename": "auroraOS-1.1-20261118-OFFICIAL-GMS-tegu.zip",
-        "md5": "02ddad80823990d287ba5cf75d574a04",
+        "date": "2026-11-25",
+        "datetime": 1795607543,
+        "filename": "auroraOS-1.1-20261125-OFFICIAL-GMS-tegu.zip",
+        "md5": "04619ff86c4742ea2b61a910624bd7e8",
         "os_patch_level": "2026-11-01",
         "os_sdk_level": 37,
-        "ota_property_files": "payload_metadata.bin:4705:227142,payload.bin:4705:3722085343,payload_properties.txt:3722090106:156,apex_info.pb:1992:1767,care_map.pb:3806:852,metadata:69:663,metadata.pb:800:1144",
-        "sha256": "9172540e6252cad231f85e630ab6555b41c21e4a9bde9ff3a4835667228800af",
-        "size": 3722093422,
+        "ota_property_files": "payload_metadata.bin:4696:228101,payload.bin:4696:3752160762,payload_properties.txt:3752165516:156,apex_info.pb:1992:1774,care_map.pb:3813:836,metadata:69:663,metadata.pb:800:1144",
+        "sha256": "8e8c2ad6601c9095dd1247dd0a293d8cd9720b1bbfb2fba0a43bae41ee920b81",
+        "size": 3752168832,
         "type": "package",
-        "url": "https://dl.auroraosp.fyi/tegu/auroraOS-1.1-20261118-OFFICIAL-GMS-tegu.zip"
+        "url": "https://dl.auroraosp.fyi/tegu/auroraOS-1.1-20261125-OFFICIAL-GMS-tegu.zip"
       }
     ],
     "is_incremental": false,

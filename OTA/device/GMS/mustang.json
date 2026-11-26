@@ -1,21 +1,21 @@
 [
   {
-    "date": "2026-11-18",
-    "datetime": 1795004430,
+    "date": "2026-11-25",
+    "datetime": 1795644670,
     "device": "mustang",
     "files": [
       {
-        "date": "2026-11-18",
-        "datetime": 1795004430,
-        "filename": "auroraOS-1.1-20261118-OFFICIAL-GMS-mustang.zip",
-        "md5": "b3a1132c764116fa142201aaa86979d5",
+        "date": "2026-11-25",
+        "datetime": 1795644670,
+        "filename": "auroraOS-1.1-20261125-OFFICIAL-GMS-mustang.zip",
+        "md5": "275f51a198818d1408375f2264111cf0",
         "os_patch_level": "2026-11-01",
         "os_sdk_level": 37,
-        "ota_property_files": "payload_metadata.bin:4809:234677,payload.bin:4809:3851926640,payload_properties.txt:3851931507:156,apex_info.pb:2058:1807,care_map.pb:3912:850,metadata:69:672,metadata.pb:809:1201",
-        "sha256": "cabf594fa4807febdbacecc9e615928798887b0827e442395fd359505307d403",
-        "size": 3851934823,
+        "ota_property_files": "payload_metadata.bin:4832:235657,payload.bin:4832:3882888847,payload_properties.txt:3882893737:156,apex_info.pb:2058:1814,care_map.pb:3919:866,metadata:69:672,metadata.pb:809:1201",
+        "sha256": "9493ea6e0e36e1dd379220a6c38625c6f57cbea9a4e0aec3336bec73532faf7a",
+        "size": 3882897053,
         "type": "package",
-        "url": "https://dl.auroraosp.fyi/mustang/auroraOS-1.1-20261118-OFFICIAL-GMS-mustang.zip"
+        "url": "https://dl.auroraosp.fyi/mustang/auroraOS-1.1-20261125-OFFICIAL-GMS-mustang.zip"
       }
     ],
     "is_incremental": false,

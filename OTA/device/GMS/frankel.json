@@ -1,21 +1,21 @@
 [
   {
-    "date": "2026-11-18",
-    "datetime": 1795007609,
+    "date": "2026-11-25",
+    "datetime": 1795649618,
     "device": "frankel",
     "files": [
       {
-        "date": "2026-11-18",
-        "datetime": 1795007609,
-        "filename": "auroraOS-1.1-20261118-OFFICIAL-GMS-frankel.zip",
-        "md5": "bceff4e563d287b76232366e27fd46b4",
+        "date": "2026-11-25",
+        "datetime": 1795649618,
+        "filename": "auroraOS-1.1-20261125-OFFICIAL-GMS-frankel.zip",
+        "md5": "f5e89fc31e809c5cd110165e368b6110",
         "os_patch_level": "2026-11-01",
         "os_sdk_level": 37,
-        "ota_property_files": "payload_metadata.bin:4769:234970,payload.bin:4769:3847649344,payload_properties.txt:3847654171:156,apex_info.pb:2058:1767,care_map.pb:3872:850,metadata:69:672,metadata.pb:809:1201",
-        "sha256": "1cc526068c97dfbb66bbc5df29b3de62ed0153af8d59996223ccf886c257671d",
-        "size": 3847657487,
+        "ota_property_files": "payload_metadata.bin:4792:235900,payload.bin:4792:3877892618,payload_properties.txt:3877897468:156,apex_info.pb:2058:1774,care_map.pb:3879:866,metadata:69:672,metadata.pb:809:1201",
+        "sha256": "4d24060b92ed33950bb1b631641156024177029a95157869000a78fd391144c7",
+        "size": 3877900784,
         "type": "package",
-        "url": "https://dl.auroraosp.fyi/frankel/auroraOS-1.1-20261118-OFFICIAL-GMS-frankel.zip"
+        "url": "https://dl.auroraosp.fyi/frankel/auroraOS-1.1-20261125-OFFICIAL-GMS-frankel.zip"
       }
     ],
     "is_incremental": false,
