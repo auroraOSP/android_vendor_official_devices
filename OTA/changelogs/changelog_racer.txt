@@ -1,3 +1,298 @@
+AuroraOS v1.1
+Build Date : 26/11/2026
+Source Changes
+- SystemUI: Fix volume panel not showing in legacy keyguard mode
+- aurora: Migrate QuickSwitch slot 0 to the shipped launcher
+- services: Let the default home launcher provide Recents
+- aurora: Drop QuickSwitch properties
+- SettingsLib/SystemUI: Fall back to stock battery paths on a bad overlay value
+- sm7250-common: sepolicy: Let SystemUI read the usb power supply
+- sepolicy: Fix VL53L1 calibration and ALS panel lookup denials
+- WallpaperEffects: Run depth segmentation one at a time
+- overlay: Name the build's default Recents provider
+- wiki: Add OnePlus Nord CE 5G
+- SystemUI: Keep the TV power menu open for the restart submenu
+- racer: Shorten chipset name
+- Twelve: Look online when the media store's artwork is empty
+- sepolicy: system_ext: Allow setupwraith_app some things
+- Revert "config: Move BoardConfigQcom.mk include above BoardConfigKernel.mk"
+- Revert "common: Pass TARGET_BOARD_PLATFORM as a kernel flag"
+- themes: iconpacks: Theme the new status bar wifi and signal icons
+- Twelve: Fall back to a checked LRCLIB search when the exact match misses
+- CN: Exclude China Unicom's 3gwap APN
+- CN: Restore China Unicom IMS APNs and dual-stack support
+- themes: iconpacks: Gradicon: Copy the layers its signal icons reference
+- AuroraHub: Preview only the icons an icon pack actually changes
+- Twelve: Give local artists and genres a picture
+- themes: iconpacks: Theme the Bluetooth, airplane and battery saver tiles
+- Twelve: Keep online artwork and lookup answers on the device
+- power: Match stock charge-limit boot re-apply and adaptive "Turn off once"
+- SystemUI: Add five Quick Settings styles that lay out the whole panel
+- AuroraHub: Offer the five new Quick Settings styles
+- config: Bump to version 1.1
+- SystemUI: Share the quick panel brightness bar with the expanded panel
+- PIF: Rewrite the attestation chain for every process of a target
+- AuroraHub: Parse indented keybox certificates for the revocation check
+- Settings: Keep homepage state per instance
+- CN: Add CBN (cbnet)
+- pre-commit: Add make-apns hook
+- PIF: Restore the pre-A13 launch level and mirror the patch prop
+- AuroraHub: Label the builtin PIF preset as Pixel 6a
+- AuroraHub: Bring back the Google beta/canary PIF fetcher
+- AuroraHub: Steer the PIF fetcher to devices that can pass DEVICE
+- libnetmgrportutils: Shim ip_local_unbindable_ports for 6.1+
+- AuroraHub: Stop putting HARDWARE/BOARD in fetched PIF profiles
+- PIF: Scope the profile like PlayIntegrityFork and keep real HARDWARE/BOARD
+- trickystore: Match Tricky Store's attestation for the Play Store
+- AuroraHub: Fetch the latest stable release instead of beta for Latest
+- AuroraHub: Make Latest fetch the newest beta, including QPR betas
+- AuroraHub: Fetch Pixel 11 canaries and drop the launch-level filter
+- AuroraHub: Fetch the Pixel 11 Android 18 developer previews as betas
+- AuroraHub: Restart GMS whenever the PIF config changes
+- PIF: Keep DroidGuard on the built-in Pixel 6a profile
+- Launcher3: Theme the clock with its full AI icon when the dial is refused
+- WallpaperPicker2: Let Theme Packs set its wallpaper and query recents
+- Launcher3: Animate the clock hands over a generated clock icon
+- PIF: Move the built-in preset to the ZP11.261016.008 Pixel 6a canary
+- AuroraHub: Give fetched profiles the month after the build date as patch
+- wiki: Add wiki->gh mapping for m20lte maintainer
+- ThemePicker: Suggested photos from Google Photos and stock category page
+- WallpaperPicker2: Match Google's wallpaper categories page
+- WallpaperPicker2: Keep the collapsed previews at Google's size
+- SystemUI: Add Shape Thumb, Aurora Gradient, Editorial and Tonal Fill volume styles
+- AuroraHub: Offer the four new volume slider styles
+- SystemUI: QS aurora styles: readable Editorial type, themed headers
+- SystemUI: Make the back gesture look selectable, restore stock arrow
+- AuroraHub: Add a back gesture style picker to Gestures
+- Revert "arm64: configs: vendor: Enable CFI"
+- wiki: devices: Promote gunnar to 24.0
+- TaskbarActivityContext: Add nav bar panels via their own window context
+- Correct the AI models variant list and add Pixel 11
+- Detect the Pixel device variant and flag pairs with no manifest
+- AuroraHub: Add a recents layout picker to Multitasking
+- Launcher3: Add recents layout styles
+- CN: Add IMS APNs and dual-stack support for CT
+- AuroraHub: Widen the recents layout previews and open pages by intent
+- config: Explicitly include Lineage SDK
+- wiki: Promote eqs to 24.0
+- SystemUI: Let Aurora Gradient and Editorial volume styles follow the theme
+- SystemUI: QS: hold the edit button to open AuroraHub's QS page
+- AuroraHub: Draw Aurora Gradient and Editorial previews in the app's theme
+- AuroraHub: Open detail screens and their pages by route
+- services: Give crash log uploads more time and retry once on timeout
+- SystemUI: Expose members used by prebuilt Pixel SystemUI classes
+- sepolicy: Allow overlay_remounter to search cache
+- Launcher3: Add app drawer layout styles
+- Settings: Supply a default for the card view intrinsic dimensions
+- Updated to 12-Nov-2026 18:02 UTC
+- sepolicy: Allow the ad blocker switch and hosts bind mount
+- AuroraHub: Add an ad blocker page to Essentials
+- Add an ad blocker hosts file
+- wiki: Set `recovery_reboot: fastboot_menu` for ayn/rp devices
+- vibrator: aidl-legacy: Don't advertise CAP_ON_CALLBACK
+- Launcher3: Add an option to hide the app drawer search bar
+- build: Write each build's commits to the device changelog
+- trickystore: Re-read the keybox in hasKeyboxes()
+- TrickyStore: Restart GMS after importing a keybox
+- racer: Update MotCamera2AI
+- sm7250-commmon: Update ims
+- keystore2: pass caller uid to the certificate post-processor
+- DroidfoodAttestationFixer: init CertificateChain with defaults
+- TrickyStore: cover native keystore2 attestation callers
+- sepolicy: let system_server host rkp_cert_processor.service
+- aurora: enable keystore2 certificate post-processor
+- iconloaderlib: Draw finished icon artwork as-is
+- Launcher3: Fix icon pack rendering
+- ThemePicker: Draw icon pack previews like the launcher
+- SystemUI: Match the Now bar glass to the shortcuts and fade its blur on unlock
+- SystemUI: Show each QS style's own layout in edit mode
+- SystemUI: Edit QS tiles in the panel style's own layout
+- SystemUI: Make lockscreen media art work with the scene container
+- SystemUI: Rework edge light after Samsung's edge lighting
+- AuroraHub: Edge light styles and Samsung-style controls
+- SystemUI: Add Edge Lighting+ particle effects to edge light
+- AuroraHub: Edge Lighting+ effect picker for edge light
+- SystemUI: Complete the Samsung edge lighting and Edge Lighting+ set
+- AuroraHub: Edge light keywords, texticons, custom images, new styles
+- SystemUI: Stop the Wi-Fi tile showing "Networks unavailable" while connected
+- SystemUI: Bring the One UI QS style up to One UI 9
+- AuroraHub: Panel picture settings for the One UI QS style
+- SystemUI: Match the One UI media card's controls to One UI 9 and our player
+- trickystore: NATIVE-mode verifiedBootKey/Hash override
+- SystemUI: Match the One UI edit grid to its panel
+- SystemUI: Size the One UI media card's previous/next to its play glyph
+- SystemUI: One UI 9 bars - level readouts and a round button apart
+- SystemUI: Let the One UI tile box fold down to a single row
+- AuroraHub: Tile box rows for the One UI QS style
+- Launcher3: Keep a scrolled-past card behind the centre one in recents layouts
+- sepolicy: Let the resolver read the ad blocker's lists
+- AuroraHub: Make the ad blocker work like uBlock Origin
+- DnsResolver: Add a uBlock-style ad blocker
+- Ad blocker: Ship a domain list for the resolver instead of a hosts file
+- SystemUI: One UI media card taps, wave and seeking
+- ThemePicker: Bring the color picker up to the CP4A stock one
+- release: Enable the wallpaper picker's color picker update
+- Launcher3: Keep the applied wallpaper's carousel tile and check
+- WallpaperPicker2: Give the applied live wallpaper a real thumbnail
+- SystemUI: One UI 9 play/pause in the One UI media card
+- ThemePicker: Show the applied color style on the Colors entry
+- SystemUI: Hide the instant access switch in the separate layout
+- AuroraHub: Hide the instant access switch in the separate layout
+- SystemUI: Redraw the glass clock when anything inside it changes
+- ThemePicker: Show the generated AI icon theme next to Create
+- SystemUI: One UI 9's music wave on the Now Bar
+- SystemUIGoogle: screenshot: Open the editor when the preview is tapped
+- SystemUI: Now bar glass without its bevel, and no deck through the glass
+- Settings: Glass bevel switch for the Now bar
+- SystemUI: Dynamic clock style that makes room around the subject
+- ThemePicker: Offer the Dynamic clock style
+- SystemUI: Keep Pulse in sight under the depth effect
+- SystemUI: QuickStar's Coloring for the One UI quick panel
+- SystemUI: Port One UI 9's stretch clock to the dynamic clock
+- AuroraHub: QuickStar Coloring for the One UI quick panel
+- SystemUIGoogle: Samsung's clock faces for the dynamic clock
+- ThemePicker: The dynamic clock's panel
+- SystemUI: One UI QS: a picture per tile, bar, box and media player
+- SystemUI: dynamic clock: all of One UI's font faces, edit in place
+- AuroraHub: One UI QS: Edit panel style, a picture per item
+- SystemUIGoogle: One UI lock clock faces for the dynamic clock
+- ThemePicker: dynamic clock lists all of One UI's font faces
+- Settings: Report storage and memory like stock on the homepage
+- SystemUI: dynamic clock: One UI's motion faces (Modern Line, Big, Layered)
+- SystemUI: status bar clock: optional date before the time
+- SystemUI: One UI QS: QuickStar's Advanced layout
+- AuroraHub: One UI: QuickStar's Advanced layout and Simple Indicator
+- ThemePicker: dynamic clock: motion faces, bigger previews
+- SystemUI: Stretch the dynamic clock figure by figure
+- AuroraHub: Combined status icon switch
+- SystemUI: Combined battery, Wi-Fi and signal status icon
+- AuroraHub: Preview cards for the combined status icon
+- Settings: Redesign About phone with a Lottie banner and bento
+- Launcher3: Fix AI icons missing for the clock and unthemed apps
+- TrickyStore: default Mir Pay and Revolut to NATIVE attestation targets
+- Settings: About banner v9 Lottie
+- TrickyStore: expand default NATIVE attestation targets
+- TrickyStore: always keep payment apps NATIVE, even with a custom target list
+- AuroraHub: Hand the ad blocker's lists to Jelly, block pop-up ad hosts
+- Jelly: Block ads and pop-ups like uBlock Origin
+- SystemUI: One UI QS: dark tile box handle on light Coloring backgrounds
+- libc: zero-pad property values on update to clear raw-area residue
+- SettingsGoogle: Bring the About phone redesign to its screen copy
+- Backgrounds: Add auroraOS wallpapers
+- AuroraHub: Combined status icon size slider
+- SystemUI: Let users size the combined status icon
+- custom_rom_hide: re-apply auroraOS ROM-specific config
+- custom_rom_hide: restore third-party ROM-prop hiding (port of 245ad0ac1)
+- Backgrounds: Add auroraOS cascade, petals and ribbon wallpapers
+- Backgrounds: Drop bg_ prefix from auroraOS wallpapers
+- custom_rom_hide: stop over-spoofing that native RASPs detect as tampering
+- ThemePicker: Backdrop online wallpaper collections
+- Updater: Run installs at full speed on a charger or with the screen off
+- core: Honour PRODUCT_VIRTUAL_AB_COW_VERSION 3 for full OTAs
+- envsetup: Honour COW v3 for signed full OTAs
+- Revert "common: Disable adb authentication on userdebug builds by default"
+- ThemePicker: Resolve the icon provider through HomeActivityResolver
+- WallpaperPicker2: Find the launcher when no default home is set
+- custom_rom_hide: exempt Paytm/AU0101 from libc hooks (RASP detects them)
+- SystemUI: Cap the combined icon size at 130%
+- AuroraHub: Cap the combined icon size at 130%
+- SystemUI: One UI QS: brightness glyph moves past the thumb like volume
+- Launcher3: Stock-style search zero state with Google account history
+- Launcher3: Show entity titles, descriptions and photos on web suggestions
+- Launcher3: Fetch Google account history from the Google app like stock
+- Launcher3: Name app result sections and show web results sooner
+- Launcher3: Only show the search zero state while the search box is focused
+- overlay: Point the wallpaper cropper at the shipped picker
+- lineage: Follow the wallpaper picker to its stock application id
+- overlay: Update default wallpapers
+- Let Theme Packs go upstream, and capture what it gets back
+- Let the themepack tool ingest a captured body directly
+- Fall back to the real service when the repository lacks a theme build
+- SystemUI: Make double tap to sleep work with the scene container
+- aurora: Point the PublicComputeRelay default at auroraOSP/pcs-manifests
+- AuroraHub: Update SpoofCheck
+- AuroraHub: Update the default manifest
+- SystemUI: Volume dialog: give feedback when picking a ringer mode
+- SystemUI: Tuck lock screen notifications into the Now bar
+- SettingsLib: Let the theme supply the restored stateful row background
+- Settings: Make Liquid Glass real glass
+- ProcessList: Isolate app data for every target SDK
+- AuroraHub: Suggest apps for Hide developer status
+- AuroraHub: Add a Glass clarity slider for the Liquid Glass homepage
+- Settings: Add a clarity control for Liquid Glass
+- Launcher3: Bow the arc scrubber rail towards the finger
+- Launcher3: Clock, favourites and floating search for the arc drawer
+- Launcher3: Live Quick Settings tiles and full-size app icons in search
+- Launcher3: Match the arc drawer to Niagara Launcher
+- Launcher3: Add ColorOS app transition springs
+- WMShell: Add ColorOS app-to-app slide transitions
+- AuroraHub: Add app transition style picker
+- SystemUI: Now bar notifications: share the clock area out like ColorOS
+- SystemUI: Now bar notifications: compact clock, full list, lyrics aside
+- TrickyStore: default AU 0101 to NATIVE attestation
+- SystemUI: Now bar notifications: ColorOS deck and capsule morph
+- custom_rom_hide: obfuscate ROM/root/package tells in libc .rodata
+- PIF: Keep the Play Store on the real identity for beta/canary prints
+- modules: Update to CP3A.261005.005 (2026-08-01 train)
+- init: Drop non-Pixel SafetyNet props that RASPs flag as spoofing
+- modules: Declare SignatureGoogle in the MediaProvider APEX
+- custom_rom_hide: make obf key volatile so -O2 can't fold the plaintext back
+- modules: Ship the train version packages Play needs, plus Google StatsD
+- libc: neutralize path-policy symbol names that RASPs flag in .symtab
+- trickystore: stop spoofing Paytm's attestation (Protectt false positive)
+- SystemUI: Now bar capsule: fit the clock above the folded deck
+- SystemUI: Now bar capsule: ColorOS folded deck layers, swipe to fold
+- Launcher3: Add a customisable dock background
+- Launcher3: Frosted dock blur and centre the plate on the icons
+- Launcher3: Dock blur strength, and centre the plate on the real icons
+- Launcher3: Stop clamping the dock plate to the hotseat's top edge
+- SystemUI: Drop stale pointers in NestedDraggable down tracking
+- Revert Now bar notification capsule
+- Launcher3: Keep the dock plate whole through the home/drawer fade
+- SystemUI: Now bar: swipe up into full-size Now cards
+- SystemUI: Keep a disabled NestedDraggable attached until its gesture ends
+- Launcher3: Keep the dock plate whole through app launch and close
+- Dialer: Match Google Dialer's contact search results
+- Dialer: Rank and annotate the search results that regular search really uses
+- Dialer: Tint the expanded search bar like Google Dialer
+- Dialer: Morph the search pill into the header like the Material SearchView
+- Dialer: Add the call assist speech pipeline
+- Dialer: Add Direct My Call
+- Dialer: Add call notes with on-device summaries
+- Dialer: Add Hold for Me
+- Dialer: Add Call Screen
+- Dialer: Replace window action bars with Google Dialer's app bar
+- Dialer: Drop the rule between settings groups
+- Dialer: Use Google Dialer's own Audio Emoji sounds and animations
+- Dialer: Screen spam, unknown and hidden callers automatically
+- Dialer: Name businesses on calls with Google Places
+- Dialer: Show Call Screen transcripts in call history
+- MicrogUtils: allow the Google Dialer identity for caller-ID
+- Dialer: Business caller ID from Google's own lookup service
+- aurora: Ship the Google Dialer identity bridge
+- AuroraHub: show combined icon size right under the layout picker
+- Launcher3: Home screen only mode (no app drawer)
+- Launcher3: Home screen only: open further new pages ourselves
+- Launcher3: Lift the workspace page dots clear of the dock plate
+- SystemUI: Ask for unlock before chosen QS tiles work on a secure lockscreen
+- AuroraHub: Add Secure quick settings page to Lockscreen
+- SystemUI: Now cards: above the shortcuts, unlock off, long swipe, clock fit
+- services: Don't show first-crash dialogs for isolated processes
+- core: Default BUILD_KEYS to release-keys for testkey builds
+- DeveloperStatusHider: Protect AU 0101 by default and spoof test-keys
+- AuroraHub: Add AU 0101 to suggested developer status hide list
+- Launcher3: Blur only behind the long-press menu's cards, not the gaps
+- Dialer: Show calls from every source in the call log
+- SystemUI: Now cards: fit custom clocks, fade the shelf and indication
+- libc: Increase PROP_OVERRIDE_MAX to 64
+- trickystore & DeveloperStatusHider: Stop spoofing AU 0101 attestation and fix debug prop seam
+- Backgrounds: Add auroraOS logo wallpapers
+- aurora: Skip the redundant re-sign pass in 'aurora br'
+- WallpaperEffects: Open up background enclosed by the depth subject
+- flashables: GoogleDialer: replace Dialer and GoogleDialerBridge, sideload-ready
+- flashables: GoogleDialer: drop a /data copy of GoogleDialerBridge
+- sm7250-common: Shrink GMS product reserve to fit super group
+
 AuroraOS v1.0
 Build Date : 04/09/2026
 Source Changes
